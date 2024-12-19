@@ -1,0 +1,56 @@
+country_event = {
+	id = 1
+	title = "Trafer"
+	desc = "Trafer"
+
+    is_triggered_only = yes
+
+	option = {
+		name = "Accept Trafer"
+		any_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			change_controller = JAN
+			secede_province = JAN
+		}
+		any_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			province_selector = -1
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = trafer_tomado
+			}
+		inherit = JAN
+		remove_country_modifier = trafer_tomado
+		}
+		}
+		ai_chance = {
+			factor = 95
+		}
+
+	option = {
+		name = "Decline Trafer"
+		any_country = {
+			limit = {
+				has_country_modifier = trafer_tomado
+			}
+		remove_country_modifier = trafer_tomado
+		}
+		any_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			province_selector = -1
+		}
+		any_country = {
+			clr_global_flag = trafer_tomado
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

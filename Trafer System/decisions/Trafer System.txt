@@ -1,0 +1,88 @@
+political_decisions = {
+	decision_trafer = {
+	picture = "decision_default"
+	potential = {
+     # Solo Austria puede tomar esta decisión
+		ai = no  # Evita que la IA la tome
+	    has_country_flag = trafer_activado
+		NOT = {has_country_modifier = trafer_tomado}
+	}
+	allow = {
+	
+	}
+	effect = {
+	add_country_modifier = {
+		    name = trafer_tomado
+			duration = 60
+		}
+		any_country = {
+		limit = {
+				has_country_flag = trafer_activado
+			}
+			country_event = { id=1 days=0 }
+		}
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+	decision_trafer_3 = {
+	picture = "decision_default"
+	potential = {
+     # Solo Austria puede tomar esta decisión
+		ai = no  # Evita que la IA la tome
+		NOT = {
+				has_country_flag = trafer_activado
+			}
+	}
+	allow = {
+	
+	}
+	effect = {
+		set_country_flag = trafer_activado
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+	decision_trafer_4 = {
+	picture = "decision_default"
+	potential = {
+     # Solo Austria puede tomar esta decisión
+		ai = no  # Evita que la IA la tome
+		has_country_flag = trafer_activado
+	}
+	allow = {
+	
+	}
+	effect = {
+		clr_country_flag = trafer_activado
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+decision_trafer_5 = {
+	picture = "decision_default"
+	potential = {
+     # Solo Austria puede tomar esta decisión
+		ai = no  # Evita que la IA la tome
+		has_country_flag = trafer_activado
+	}
+	allow = {
+	
+	}
+	effect = {
+		any_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			province_selector = -1
+		}
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+}

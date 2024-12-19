@@ -1,0 +1,8 @@
+decision_trafer_3_title;Activate transfers;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+decision_trafer_3_desc;ONLY ACTIVATE IF YOU ARE GOING TO MAKE A TRANSFER OF PROVINCES;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+decision_trafer_4_title;Disable transfer;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+decision_trafer_4_desc;WITH THIS DECISION YOU ARE NOT AFFECTED BY THE TRANSFER OF OTHER PLAYERS;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+decision_trafer_5_title;Deselect provinces;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+decision_trafer_5_desc;DECLINE ALL PROVINCES IN CASE YOU MADE A MISTAKE IN ANY OF THEM;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+decision_trafer_title;Make the transfer;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+decision_trafer_desc;TRANSFERS ARE ONLY MADE WITH THOSE WHO HAVE THE PROVINCE TRAFERIR IN A PROVINCE AND WHO HAVE THE TRAFER DECISIONS ACTIVATED;;;;;;;;;;;;;;;;;;;;;;;;;;;x

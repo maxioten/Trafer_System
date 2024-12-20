@@ -27,7 +27,7 @@ country_event = {
 		inherit = JAN
 		add_country_modifier = {
 		    name = trafer_tomadoo
-			duration = -1
+			duration = 60
 		}
 		}
 		any_country = {
@@ -37,6 +37,9 @@ country_event = {
 		inherit = JAN
 		remove_country_modifier = trafer_tomado
 		}
+		JAN = {
+		country_event = { id=2 days=5 }
+			}
 		}
 		ai_chance = {
 			factor = 95

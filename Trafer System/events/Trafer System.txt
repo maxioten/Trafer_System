@@ -22,6 +22,16 @@ country_event = {
 		}
 		any_country = {
 			limit = {
+				has_country_modifier = trafer_tomado	
+			}
+		inherit = JAN
+		add_country_modifier = {
+		    name = trafer_tomadoo
+			duration = -1
+		}
+		}
+		any_country = {
+			limit = {
 				has_country_modifier = trafer_tomado
 			}
 		inherit = JAN
@@ -53,4 +63,29 @@ country_event = {
 			factor = 0
 		}
 	}
+}
+
+country_event = {
+	id = 2
+	title = "Trafer"
+	desc = "Trafer"
+
+    trigger = {
+		tag = JAN
+		exists = JAN
+	}
+
+	option = {
+		name = "Accept Trafer"
+		any_country = {
+			limit = {
+				has_country_modifier = trafer_tomadoo
+			}
+		inherit = JAN
+		remove_country_modifier = trafer_tomadoo
+		}
+		ai_chance = {
+			factor = 95
+		}
+		}
 }

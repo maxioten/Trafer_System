@@ -11,6 +11,9 @@ government_sanitarium = {
 trafer_tomado = {
 	icon = 19
 }
+trafer_tomadoo = {
+	icon = 19
+}
 
 ##### TECH SCHOOLS ######
 academic_confusion = {

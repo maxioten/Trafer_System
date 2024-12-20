@@ -6,6 +6,7 @@ political_decisions = {
 		ai = no  # Evita que la IA la tome
 	    has_country_flag = trafer_activado
 		NOT = {has_country_modifier = trafer_tomado}
+		NOT = {has_country_modifier = trafer_tomadoo}
 	}
 	allow = {
 	
